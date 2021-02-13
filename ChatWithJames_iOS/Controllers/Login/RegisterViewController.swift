@@ -198,6 +198,14 @@ extension RegisterViewController: UIImagePickerControllerDelegate {
         present(actionSheet, animated: true)
     }
     
+    func presentCamera() {
+        
+    }
+    
+    func presentPhotoPicker() {
+        
+    }
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
     }
