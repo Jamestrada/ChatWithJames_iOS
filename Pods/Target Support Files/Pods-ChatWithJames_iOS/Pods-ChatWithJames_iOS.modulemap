@@ -1,0 +1,6 @@
+framework module Pods_ChatWithJames_iOS {
+  umbrella header "Pods-ChatWithJames_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
