@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B60071625DCE4C80015BC31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B60071525DCE4C80015BC31 /* GoogleService-Info.plist */; };
+		7B60071925DDC2EF0015BC31 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60071825DDC2EF0015BC31 /* DatabaseManager.swift */; };
 		7BBD362825CD207200D6EB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362725CD207200D6EB39 /* AppDelegate.swift */; };
 		7BBD362A25CD207200D6EB39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362925CD207200D6EB39 /* SceneDelegate.swift */; };
 		7BBD362C25CD207200D6EB39 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362B25CD207200D6EB39 /* ConversationsViewController.swift */; };
@@ -28,6 +29,7 @@
 		1E5C33A26ACD3A7F80DDC7E8 /* Pods-ChatWithJames_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWithJames_iOS.release.xcconfig"; path = "Target Support Files/Pods-ChatWithJames_iOS/Pods-ChatWithJames_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		445057DC5F18A3851296AA1F /* Pods-ChatWithJames_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWithJames_iOS.debug.xcconfig"; path = "Target Support Files/Pods-ChatWithJames_iOS/Pods-ChatWithJames_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7B60071525DCE4C80015BC31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B60071825DDC2EF0015BC31 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		7BBD362425CD207200D6EB39 /* ChatWithJames_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithJames_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBD362725CD207200D6EB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BBD362925CD207200D6EB39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				7BBD362725CD207200D6EB39 /* AppDelegate.swift */,
 				7BBD362925CD207200D6EB39 /* SceneDelegate.swift */,
 				7BBD365825D24E0A00D6EB39 /* Extensions.swift */,
+				7B60071825DDC2EF0015BC31 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BBD364425CFB79C00D6EB39 /* LoginViewController.swift in Sources */,
+				7B60071925DDC2EF0015BC31 /* DatabaseManager.swift in Sources */,
 				7BBD364825CFB7BD00D6EB39 /* RegisterViewController.swift in Sources */,
 				7BBD365125CFB81D00D6EB39 /* NewConversationViewController.swift in Sources */,
 				7BBD362C25CD207200D6EB39 /* ConversationsViewController.swift in Sources */,
