@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B60071625DCE4C80015BC31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B60071525DCE4C80015BC31 /* GoogleService-Info.plist */; };
 		7B60071925DDC2EF0015BC31 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60071825DDC2EF0015BC31 /* DatabaseManager.swift */; };
+		7B60079825E371610015BC31 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60079725E371610015BC31 /* ChatViewController.swift */; };
 		7BBD362825CD207200D6EB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362725CD207200D6EB39 /* AppDelegate.swift */; };
 		7BBD362A25CD207200D6EB39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362925CD207200D6EB39 /* SceneDelegate.swift */; };
 		7BBD362C25CD207200D6EB39 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362B25CD207200D6EB39 /* ConversationsViewController.swift */; };
@@ -30,6 +31,7 @@
 		445057DC5F18A3851296AA1F /* Pods-ChatWithJames_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatWithJames_iOS.debug.xcconfig"; path = "Target Support Files/Pods-ChatWithJames_iOS/Pods-ChatWithJames_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7B60071525DCE4C80015BC31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7B60071825DDC2EF0015BC31 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		7B60079725E371610015BC31 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7BBD362425CD207200D6EB39 /* ChatWithJames_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithJames_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBD362725CD207200D6EB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BBD362925CD207200D6EB39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				7BBD364D25CFB7FB00D6EB39 /* VideoPlayerViewController.swift */,
 				7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */,
 				7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */,
+				7B60079725E371610015BC31 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				7BBD362825CD207200D6EB39 /* AppDelegate.swift in Sources */,
 				7BBD365425CFB83300D6EB39 /* ProfileViewController.swift in Sources */,
 				7BBD362A25CD207200D6EB39 /* SceneDelegate.swift in Sources */,
+				7B60079825E371610015BC31 /* ChatViewController.swift in Sources */,
 				7BBD364B25CFB7E500D6EB39 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
