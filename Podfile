@@ -9,6 +9,7 @@ target 'ChatWithJames_iOS' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'Firebase/Storage'
 
 # Facebook Sign In
 pod 'FBSDKLoginKit'
