@@ -158,7 +158,7 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
             guard let conversationId = conversationId, let name = self.title else {
                 return
             }
-            DatabaseManager.shared.sendMessage(to: conversationId, name: name, newMessage: message, completion: { success in
+            DatabaseManager.shared.sendMessage(to: conversationId, otherUserEmail: otherUserEmail, name: name, newMessage: message, completion: { success in
                 if success {
                     print("Message sent")
                 }
