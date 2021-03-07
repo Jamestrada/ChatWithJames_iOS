@@ -58,7 +58,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="V12-5h-Lbg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmx-BQ-bTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="9iw-D4-1ys" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kyR-Pg-fc6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -70,6 +69,7 @@
                         <segue destination="RjP-Fc-NSI" kind="relationship" relationship="viewControllers" id="CUH-0H-yI0"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmx-BQ-bTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="326" y="-1495"/>
         </scene>
@@ -77,7 +77,7 @@
         <scene sceneID="GJd-AS-3cm">
             <objects>
                 <navigationController id="RjP-Fc-NSI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="Gyn-ZT-Qc4"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="Gyn-ZT-Qc4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="IQH-bC-Gt6">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -94,7 +94,7 @@
         <scene sceneID="x7O-US-pqh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f10-UT-3dZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chats" id="80P-1x-zuL"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="80P-1x-zuL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Njj-aj-Wgb">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -111,6 +111,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
