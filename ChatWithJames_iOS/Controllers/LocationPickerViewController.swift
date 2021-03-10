@@ -1,0 +1,63 @@
+//
+//  LocationPickerViewController.swift
+//  ChatWithJames_iOS
+//
+//  Created by James Estrada on 3/9/21.
+//
+
+import UIKit
+import CoreLocation
+import MapKit
+
+class LocationPickerViewController: UIViewController {
+    public var completion: ((CLLocationCoordinate2D) -> Void)?
+    private var coordinates: CLLocationCoordinate2D?
+    
+    private let map: MKMapView = {
+        let map = MKMapView()
+        return map
+    }()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "Pick Location"
+        view.backgroundColor = .systemBackground
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Send", style: .done, target: self, action: #selector(sendButtonTapped))
+        view.addSubview(map)
+        map.isUserInteractionEnabled = true
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(didTapMap(_:)))
+        gesture.numberOfTouchesRequired = 1
+        gesture.numberOfTapsRequired = 1
+        map.addGestureRecognizer(gesture)
+    }
+    
+    @objc func sendButtonTapped() {
+        guard let coordinates = coordinates else {
+            return
+        }
+        navigationController?.popViewController(animated: true)
+        completion?(coordinates)
+    }
+    
+    @objc func didTapMap(_ gesture: UITapGestureRecognizer) {
+        let locationInView = gesture.location(in: map)
+        let coordinates = map.convert(locationInView, toCoordinateFrom: map)
+        self.coordinates = coordinates
+        
+//        for annotation in map.annotations {
+//            map.removeAnnotation(annotation)
+//        }
+        map.removeAnnotations(map.annotations) // avoids multiple annotations by keeping the most recent annotation
+        
+        // drop a pin on that location
+        let pin = MKPointAnnotation()
+        pin.coordinate = coordinates
+        map.addAnnotation(pin)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        map.frame = view.bounds
+    }
+}

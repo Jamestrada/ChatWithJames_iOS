@@ -26,6 +26,7 @@
 		7BBD365125CFB81D00D6EB39 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */; };
 		7BBD365425CFB83300D6EB39 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */; };
 		7BBD365925D24E0A00D6EB39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365825D24E0A00D6EB39 /* Extensions.swift */; };
+		7BFBC1BA25F878CA00886754 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBC1B925F878CA00886754 /* LocationPickerViewController.swift */; };
 		ECAD66F56BEEF9314C7571C1 /* Pods_ChatWithJames_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AE16E20537744003F5AC65 /* Pods_ChatWithJames_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7BBD365825D24E0A00D6EB39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7BFBC1B925F878CA00886754 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		A8AE16E20537744003F5AC65 /* Pods_ChatWithJames_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatWithJames_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */,
 				7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */,
 				7B60079725E371610015BC31 /* ChatViewController.swift */,
+				7BFBC1B925F878CA00886754 /* LocationPickerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				7B60079825E371610015BC31 /* ChatViewController.swift in Sources */,
 				7BBD364B25CFB7E500D6EB39 /* PhotoViewerViewController.swift in Sources */,
 				7B981A0925E61E3A00F8F5D2 /* StorageManager.swift in Sources */,
+				7BFBC1BA25F878CA00886754 /* LocationPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
