@@ -192,6 +192,10 @@ class RegisterViewController: UIViewController {
                     return
                 }
                 
+                // Cache user's email and name when registering user
+                UserDefaults.standard.setValue(email, forKey: "email")
+                UserDefaults.standard.setValue("\(firstName) \(lastName)", forKey: "name")
+                
                 let chatUser = ChatAppUser(firstName: firstName, lastName: lastName, emailAddress: email)
                 DatabaseManager.shared.insertUser(with: chatUser, completion: { success in
                     if success {
