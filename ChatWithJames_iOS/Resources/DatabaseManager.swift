@@ -405,9 +405,10 @@ extension DatabaseManager {
                 }
                 else if type == "location" {
                     let locationComponents = content.components(separatedBy: ",")
-                    guard let longitude = locationComponents[0] as? Double, let latitude = locationComponents[1] as? Double else {
-                        return
+                    guard let longitude = Double(locationComponents[0]), let latitude = Double(locationComponents[1]) else {
+                        return nil
                     }
+                    print("Rendering location; long=\(longitude) | lat=\(latitude)")
                     
                     let location = Location(location: CLLocation(latitude: latitude, longitude: longitude), size: CGSize(width: 300, height: 300))
                     kind = .location(location)
