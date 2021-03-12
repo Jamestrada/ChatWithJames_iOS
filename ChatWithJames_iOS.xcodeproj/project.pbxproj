@@ -12,6 +12,10 @@
 		7B60079825E371610015BC31 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60079725E371610015BC31 /* ChatViewController.swift */; };
 		7B981A0925E61E3A00F8F5D2 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B981A0825E61E3A00F8F5D2 /* StorageManager.swift */; };
 		7B981A0C25EAD3FF00F8F5D2 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B981A0B25EAD3FF00F8F5D2 /* ConversationTableViewCell.swift */; };
+		7B99461D25FC02B100E0179F /* ConversationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99461C25FC02B100E0179F /* ConversationsModels.swift */; };
+		7B99462025FC030A00E0179F /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99461F25FC030A00E0179F /* ChatModels.swift */; };
+		7B99462325FC034F00E0179F /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99462225FC034F00E0179F /* SearchResult.swift */; };
+		7B99462725FC03C300E0179F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99462625FC03C300E0179F /* ProfileViewModel.swift */; };
 		7BA6BE6925F33FE300A24286 /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6BE6825F33FE300A24286 /* NewConversationCell.swift */; };
 		7BBD362825CD207200D6EB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362725CD207200D6EB39 /* AppDelegate.swift */; };
 		7BBD362A25CD207200D6EB39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD362925CD207200D6EB39 /* SceneDelegate.swift */; };
@@ -22,7 +26,6 @@
 		7BBD364425CFB79C00D6EB39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD364325CFB79C00D6EB39 /* LoginViewController.swift */; };
 		7BBD364825CFB7BD00D6EB39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD364725CFB7BC00D6EB39 /* RegisterViewController.swift */; };
 		7BBD364B25CFB7E500D6EB39 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD364A25CFB7E500D6EB39 /* PhotoViewerViewController.swift */; };
-		7BBD364E25CFB7FB00D6EB39 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD364D25CFB7FB00D6EB39 /* VideoPlayerViewController.swift */; };
 		7BBD365125CFB81D00D6EB39 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */; };
 		7BBD365425CFB83300D6EB39 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */; };
 		7BBD365925D24E0A00D6EB39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD365825D24E0A00D6EB39 /* Extensions.swift */; };
@@ -38,6 +41,10 @@
 		7B60079725E371610015BC31 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7B981A0825E61E3A00F8F5D2 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		7B981A0B25EAD3FF00F8F5D2 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		7B99461C25FC02B100E0179F /* ConversationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsModels.swift; sourceTree = "<group>"; };
+		7B99461F25FC030A00E0179F /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		7B99462225FC034F00E0179F /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		7B99462625FC03C300E0179F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		7BA6BE6825F33FE300A24286 /* NewConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
 		7BBD362425CD207200D6EB39 /* ChatWithJames_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithJames_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBD362725CD207200D6EB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +57,6 @@
 		7BBD364325CFB79C00D6EB39 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7BBD364725CFB7BC00D6EB39 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7BBD364A25CFB7E500D6EB39 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
-		7BBD364D25CFB7FB00D6EB39 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7BBD365825D24E0A00D6EB39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -125,7 +131,6 @@
 				7BBD362B25CD207200D6EB39 /* ConversationsViewController.swift */,
 				7BBD365625D0C05900D6EB39 /* Login */,
 				7BBD364A25CFB7E500D6EB39 /* PhotoViewerViewController.swift */,
-				7BBD364D25CFB7FB00D6EB39 /* VideoPlayerViewController.swift */,
 				7BBD365025CFB81D00D6EB39 /* NewConversationViewController.swift */,
 				7BBD365325CFB83300D6EB39 /* ProfileViewController.swift */,
 				7B60079725E371610015BC31 /* ChatViewController.swift */,
@@ -148,6 +153,10 @@
 		7BBD363E25CFB5F700D6EB39 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7B99461C25FC02B100E0179F /* ConversationsModels.swift */,
+				7B99461F25FC030A00E0179F /* ChatModels.swift */,
+				7B99462225FC034F00E0179F /* SearchResult.swift */,
+				7B99462625FC03C300E0179F /* ProfileViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -341,13 +350,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BBD364425CFB79C00D6EB39 /* LoginViewController.swift in Sources */,
+				7B99462725FC03C300E0179F /* ProfileViewModel.swift in Sources */,
 				7BA6BE6925F33FE300A24286 /* NewConversationCell.swift in Sources */,
 				7B60071925DDC2EF0015BC31 /* DatabaseManager.swift in Sources */,
+				7B99462025FC030A00E0179F /* ChatModels.swift in Sources */,
 				7BBD364825CFB7BD00D6EB39 /* RegisterViewController.swift in Sources */,
 				7BBD365125CFB81D00D6EB39 /* NewConversationViewController.swift in Sources */,
 				7BBD362C25CD207200D6EB39 /* ConversationsViewController.swift in Sources */,
-				7BBD364E25CFB7FB00D6EB39 /* VideoPlayerViewController.swift in Sources */,
 				7BBD365925D24E0A00D6EB39 /* Extensions.swift in Sources */,
+				7B99462325FC034F00E0179F /* SearchResult.swift in Sources */,
 				7BBD362825CD207200D6EB39 /* AppDelegate.swift in Sources */,
 				7BBD365425CFB83300D6EB39 /* ProfileViewController.swift in Sources */,
 				7BBD362A25CD207200D6EB39 /* SceneDelegate.swift in Sources */,
@@ -355,6 +366,7 @@
 				7B60079825E371610015BC31 /* ChatViewController.swift in Sources */,
 				7BBD364B25CFB7E500D6EB39 /* PhotoViewerViewController.swift in Sources */,
 				7B981A0925E61E3A00F8F5D2 /* StorageManager.swift in Sources */,
+				7B99461D25FC02B100E0179F /* ConversationsModels.swift in Sources */,
 				7BFBC1BA25F878CA00886754 /* LocationPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
